@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 0 20px;
+    background-color: #FDF3ED;
+}
+
+img, .introduction, .section {
+    max-width: 100%;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+img {
+    height: auto;
+}
+
+h1 {
+    color: #231903;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #231903;
+    text-align: left;
+    margin-top: 20px;
+}
+
+p, ul, p:hover, .introduction:hover, .section:hover {
+    margin-top: 10px;
+}
+
+p:hover, .introduction:hover, .section:hover {
+    background-color: #6FAE8F; 
+}
+
+a, li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    background-color: #172026;
+    color: #ffffff;
+}
+
+a:hover {
+    background-color: #364B59;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+li a {
+    background-color: transparent;
+    color: #55828B;
+}
+
+button, .button {
+    background-color: #55828B;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover, .button:hover {
+    background-color: #364958;
+}
+
+.fa-instagram, .fa-linkedin {
+    transition: color 0.3s ease;
+    font-size: 44px;
+}
+
+.fa-instagram:hover, .fa-linkedin:hover {
+    transform: scale(1.1); 
+    color: #87BBA2;
+}
+
+.introduction, .section {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: #B1D3C2;
+}
